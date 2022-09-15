@@ -36,5 +36,17 @@
 
 .about-me-text {
     height: 10rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
+}
+
+.contact-btn {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.contact-me {
+    height: 5rem;
+    margin-top: 5rem;
+    margin-left: 11rem;
 }
