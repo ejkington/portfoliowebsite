@@ -1,53 +1,12 @@
 .background {
+    background-image: url("/assets/images/pexels-felix-mittermeier-956981.jpg");
+    height: 100%;
     width: 100%;
-    height: 50%;
-    z-index: -10;
-    display: none;
+    opacity: 0.5;
 }
 
-.profile-picture img {
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
-    margin-left: 15rem;
-    margin-top: 2rem;
-    border: 1px solid black;
-    float: left;
-
-}
-
-.profile-picture {
-    width: 30%;
-
-}
-
-.hr-20 {
-    width: 70%;
-    margin-top: 1rem;
-
-}
-
-.about-me {
-    text-align: center;
-    margin-top: 5rem;
-    height: 15rem;
-    display: flex;
-}
-
-.about-me-text {
-    height: 10rem;
-    margin-top: 6rem;
+.profile-name {
     text-transform: uppercase;
-}
-
-.contact-btn {
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
-}
-
-.contact-me {
-    height: 5rem;
-    margin-top: 5rem;
-    margin-left: 38rem;
+    color: white;
+    opacity: 1;
 }
