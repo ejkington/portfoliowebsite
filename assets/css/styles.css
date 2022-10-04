@@ -17,3 +17,17 @@
     display: flex;
     border-radius: 50%;
 }
+
+.about-me {
+    display: flex;
+    float: right;
+}
+
+.header-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-button {
+    border-radius: 10%;
+}
