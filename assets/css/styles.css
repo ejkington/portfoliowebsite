@@ -22,7 +22,9 @@
     margin-left: auto;
 }
 
-.bg-img {
-    background-image: url("/assets/images/pexels-felix-mittermeier-956981.jpg");
+#bg-img {
+    background-image: url('/assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
