@@ -1,16 +1,3 @@
-.background {
-    background-image: url("/assets/images/pexels-felix-mittermeier-956981.jpg");
-    height: 100%;
-    width: 100%;
-    opacity: 0.5;
-}
-
-.profile-name {
-    text-transform: uppercase;
-    color: white;
-    opacity: 1;
-}
-
 .profile-picture {
     width: 40%;
     height: 40%;
@@ -28,6 +15,9 @@
     text-transform: uppercase;
 }
 
-.contact-button {
-    border-radius: 10%;
+.text-right {
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    margin-left: auto;
 }
