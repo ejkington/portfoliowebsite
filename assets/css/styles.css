@@ -18,9 +18,10 @@
 
 .text-right {
     text-align: center;
-    width: 40%;
+    width: 90%;
     font-size: 20px;
-    margin-left: auto;
+    margin-left: 5rem;
+    margin-top: 3rem;
 }
 
 #bg-img {
@@ -55,4 +56,10 @@
     height: 100%;
     display: flex;
     margin-left: 5.2rem;
+}
+
+/* skills section */
+
+.skills {
+    margin: 1rem;
 }
