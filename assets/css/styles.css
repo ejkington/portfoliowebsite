@@ -70,10 +70,14 @@
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    padding: 2px 16px;
+    padding: 5px 16px;
     display: flex;
     width: 40%;
     height: 30%;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -95,7 +99,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
-    margin-left: 17rem;
+    margin-left: 17.8rem;
     min-height: 60px;
     min-width: 0;
     outline: none;
@@ -110,7 +114,6 @@
     will-change: transform;
     width: 20%;
     height: 10%;
-
 }
 
 .cards:disabled {
@@ -129,6 +132,54 @@
 
 /* styling of the text in cards */
 
-.cards-img {
+.cards-text {
     text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.card-image-1 img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+}
+
+.card-image-2 img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+}
+
+.card-image-3 img {
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-color: #cccccc;
+    width: 100%;
+}
+
+.card-image-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+}
+
+.card-image-5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
 }
