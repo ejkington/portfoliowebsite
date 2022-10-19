@@ -126,3 +126,9 @@
     box-shadow: none;
     transform: translateY(0);
 }
+
+/* styling of the text in cards */
+
+.cards-img {
+    text-align: center;
+}
