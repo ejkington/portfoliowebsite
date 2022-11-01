@@ -174,3 +174,9 @@ a:hover {
     height: 15vw;
     object-fit: cover;
 }
+
+.btn-lg {
+    width: 33%;
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+}
